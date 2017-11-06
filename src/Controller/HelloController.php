@@ -20,7 +20,7 @@ class HelloController extends Controller {
      * @Route("/hello/menu", name="menu")
      */
     function menu() {
-        return $this->render('Page/menu.html.twig');
+        return $this->render('menu.html.twig');
     }
 
     /**
